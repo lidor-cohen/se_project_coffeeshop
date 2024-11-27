@@ -1,38 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Lidor Cohen" />
+    <meta
+      name="description"
+      content="Discover quality coffee and a relaxed atmosphere, where every cup is made to order with the finest beans."
+    />
+    <meta
+      name="keywords"
+      content="coffee, coffee shop, espresso, latte, cappuccino"
+    />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Lidor Cohen">
-    <meta name="description"
-        content="Discover quality coffee and a relaxed atmosphere, where every cup is made to order with the finest beans.">
-    <meta name="keywords" content="coffee, coffee shop, espresso, latte, cappuccino">
+    <link rel="stylesheet" href="pages/index.css" />
+    <link rel="stylesheet" href="vendor/normalize.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
-    <link rel="stylesheet" href="pages/index.css">
-    <link rel="stylesheet" href="vendor/normalize.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
     <title>TP: Coffee Shop</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="page">
-        <header class="header"></header>
-        <main class="content">
-            <section class="recipes"></section>
-            <section class="reservation"></section>
-            <section class="menu"></section>
-            <section class="about"></section>
-        </main>
-        <footer class="footer"></footer>
-    </div>
-</body>
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="images/logo_coffeeshop_dark.svg"
+            alt="dark logo"
+            class="nav__logo"
+          />
+          <ul class="nav__links">
+            <li class="nav__link">Recipes</li>
+            <li class="nav__link">Book a table</li>
+            <li class="nav__link">Menu</li>
+            <li class="nav__link">Contacts</li>
+          </ul>
+        </nav>
 
+        <div class="header-content">
+          <h1 class="header-content__title">
+            <span class="span-accent">Speciality Coffee</span>
+            <span>in the Triple Peaks Library</span>
+          </h1>
+
+          <p class="header-content__description">
+            Welcome to our study zone! We've got the coffee to energize you and
+            the cozy vibes to help you get creative.
+          </p>
+
+          <img
+            src="images/inside_coffee_shop.png"
+            alt=""
+            class="header-content__image"
+          />
+
+          <div class="header-content__footer">
+            <div class="header-content__hours">
+              <span>Hours:</span>
+              <span>Monday – Friday (10:00 – 19:00)</span>
+              <span>Saturday – Sunday (11:00 – 18:00)</span>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="content">
+        <section class="recipes"></section>
+        <section class="reservation"></section>
+        <section class="menu"></section>
+        <section class="about"></section>
+      </main>
+      <footer class="footer"></footer>
+    </div>
+  </body>
 </html>
