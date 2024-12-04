@@ -1,0 +1,113 @@
+.reservation {
+  background-color: #d9e7ff;
+  background-image: url("../images/background_reservation.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reservation__title {
+  margin: 100px 0 80px 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.reservation__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.reservation__fieldset {
+  border: none;
+  width: 385px;
+  margin: 0 0 32px 0;
+  padding: 0;
+}
+
+.reservation__fieldset_type_checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.reservation__fieldset:last-of-type {
+  margin-bottom: 0;
+}
+
+.reservation__label {
+  display: block;
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+
+.reservation__label:first-of-type {
+  margin-top: 0;
+}
+
+.reservation__label_type_checkbox {
+  display: inline;
+}
+
+.reservation__input_type_normal {
+  padding: 15px 20px;
+  max-width: 385px;
+  width: 100%;
+  box-sizing: border-box;
+
+  border: 1px solid #838383;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.reservation__input_type_button {
+  padding: 20px 0;
+  width: 100%;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #1878dc;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+.reservation__input_type_button:hover {
+  background-color: #166ecc;
+}
+
+.reservation__input_type_button:active {
+  background-color: #1466be;
+}
+.reservation__label_type_checkbox {
+  margin-bottom: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.reservation__input_type_checkbox {
+  border-radius: 2px;
+  background-color: #1878dc;
+  background-image: url("../images/check.svg");
+  width: 20px;
+  height: 20px;
+}
