@@ -59,7 +59,7 @@
 
           <img
             src="images/inside_coffee_shop.png"
-            alt=""
+            alt="coffee shop art"
             class="header__image"
           />
         </div>
@@ -117,7 +117,80 @@
             </div>
           </div>
         </section>
-        <section id="section-reservation" class="reservation"></section>
+        <section id="section-reservation" class="reservation">
+          <h2 class="reservation__title">Book a Table</h2>
+          <form class="reservation__form">
+            <fieldset
+              class="reservation__fieldset reservation__fieldset_type_text"
+            >
+              <label class="reservation__label" for="reservation-name"
+                >Name</label
+              >
+              <input
+                id="reservation-name"
+                class="reservation__input reservation__input_type_normal"
+                type="text"
+                placeholder="Name Surname"
+              />
+
+              <label class="reservation__label" for="reservation-guests"
+                >Number of guests</label
+              >
+              <input
+                type="number"
+                min="1"
+                max="8"
+                id="reservation-guests"
+                class="reservation__input reservation__input_type_normal"
+                placeholder="1-8"
+              />
+
+              <label class="reservation__label" for="reservation-date"
+                >Date & Time</label
+              >
+              <input
+                type="datetime-local"
+                id="reservation-date"
+                class="reservation__input reservation__input_type_normal"
+              />
+
+              <label class="reservation__label" for="reservation-email"
+                >E-mail</label
+              >
+              <input
+                class="reservation__input reservation__input_type_normal"
+                type="email"
+                id="reservation-email"
+                placeholder="email@email.com"
+              />
+            </fieldset>
+            <fieldset
+              class="reservation__fieldset reservation__fieldset_type_buttons"
+            >
+              <button
+                class="reservation__input reservation__input_type_button"
+                type="submit"
+              >
+                Book a Table
+              </button>
+            </fieldset>
+            <fieldset
+              class="reservation__fieldset reservation__fieldset_type_checkbox"
+            >
+              <input
+                class="reservation__input_type_checkbox"
+                type="checkbox"
+                name="terms-agreement"
+                id="terms-agreement"
+              />
+              <label
+                class="reservation__label reservation__label_type_checkbox"
+                for="terms-agreement"
+                >I agree with the terms of use</label
+              >
+            </fieldset>
+          </form>
+        </section>
         <section id="section-menu" class="menu"></section>
         <section id="section-about" class="about"></section>
       </main>
