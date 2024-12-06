@@ -86,14 +86,16 @@
   color: white;
   border: none;
   outline: none;
+
+  transition: background-color 0.2s;
 }
 
 .reservation__input_type_button:hover {
-  background-color: #166ecc;
+  background-color: #3f96f3;
 }
 
 .reservation__input_type_button:active {
-  background-color: #1466be;
+  background-color: #3a89dd;
 }
 .reservation__label_type_checkbox {
   margin-bottom: 0;
