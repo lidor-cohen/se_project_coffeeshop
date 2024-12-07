@@ -42,6 +42,16 @@
   z-index: 2;
 }
 
+.header__span-accent {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #3f96f3;
+  display: block;
+}
+
 .header__image {
   position: absolute;
   top: 124px;
@@ -52,7 +62,7 @@
   z-index: -1;
 }
 
-.header-footer {
+.header__footer {
   margin-top: auto;
   padding-bottom: 40px;
   display: flex;
@@ -67,19 +77,6 @@
   color: #6f6f6f;
 }
 
-.header-footer * {
+.header__paragraph {
   margin: 0;
-}
-
-.span-block {
-  display: block;
-}
-
-.span-accent {
-  font-family: "Noto Serif", "Times New Roman", serif;
-  font-style: italic;
-  font-weight: normal;
-  font-size: 60px;
-  line-height: 72px;
-  color: #3f96f3;
 }
